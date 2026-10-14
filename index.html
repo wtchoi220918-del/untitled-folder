@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1> My Favorite Movie</h1>
+  </header>
+
+  <div class="container">
+    <nav class="sidebar">
+      <!-- 1. Local Page Link (displays local image) -->
+      <a href="details.html" target="media-frame">Poster</a>
+
+      <!-- 2. Embedded YouTube Trailer/Song -->
+      <a href="https://www.youtube.com/embed/pD7eBqTy__E?si=JVgYZ-uEEGITZcrG" target="media-frame">
+        Video
+      </a>
+      <!-- 3. Live External Website -->
+      <a href="https://en.wikipedia.org/wiki/Mobile_Suit_Gundam" target="media-frame">
+        Wikiedia
+      </a>
+    </nav>
+
+    <main class="container">
+      <iframe name="media-frame" src="details.html" title="Media Display"></iframe>
+    </main>
+  </div>
+
+</body>
+</html>
+
+
+
